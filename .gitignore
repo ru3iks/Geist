@@ -1,0 +1,57 @@
+# ────────────────────────────────────────────
+# KiCad
+# ────────────────────────────────────────────
+
+# Backup files
+*.kicad_*-bak
+*-backups/
+_autosave-*
+*.bak
+
+# Gerber/drill output (regenerate from source)
+fabrication/*.gbr
+fabrication/*.drl
+fabrication/*.gbrjob
+
+# KiCad lock files
+*.lck
+
+# Footprint cache (auto-generated)
+fp-info-cache
+
+# ────────────────────────────────────────────
+# Rust / Cargo
+# ────────────────────────────────────────────
+**/target/
+**/*.rs.bk
+Cargo.lock
+
+# ────────────────────────────────────────────
+# Tauri / Node.js
+# ────────────────────────────────────────────
+**/node_modules/
+**/dist/
+**/.svelte-kit/
+*.tsbuildinfo
+.env
+.env.*
+
+# ────────────────────────────────────────────
+# IDE / Editor
+# ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ────────────────────────────────────────────
+# Build artifacts
+# ────────────────────────────────────────────
+*.bin
+*.elf
+*.hex
+*.map
