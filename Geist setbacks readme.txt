@@ -21,3 +21,5 @@ changed connectors and re-routed
 XSMT PIN - CHANGED FROM 3.3V to GPIO ping IO18
 
 Key feature: Digital and Analog isolation
+
+crucial GPIO pins were on left, rerouted in schematic and fixed to the right to avoid drawing unnecessary vias.

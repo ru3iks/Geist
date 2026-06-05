@@ -4591,8 +4591,8 @@
 		(uuid "fe8632e2-4f91-4e62-869c-7f2a6147e88b")
 	)
 	(no_connect
-		(at 99.06 166.37)
-		(uuid "224d41a0-d340-40fe-9e43-9068ff34c361")
+		(at 68.58 163.83)
+		(uuid "1b992f99-52ff-4ebb-88f6-a8a547f92f5c")
 	)
 	(no_connect
 		(at 80.01 31.75)
@@ -4607,12 +4607,12 @@
 		(uuid "3dd0fbc5-993e-41bf-9fe7-9d0df180add6")
 	)
 	(no_connect
-		(at 99.06 176.53)
-		(uuid "4130d601-1c2e-4eb8-96c1-69705edca4ff")
+		(at 68.58 153.67)
+		(uuid "424160b0-3fae-4f2b-a89e-c67f91ad8c01")
 	)
 	(no_connect
-		(at 99.06 168.91)
-		(uuid "5a09509c-1406-4712-9632-9612a4790a3d")
+		(at 68.58 179.07)
+		(uuid "502e3cfc-cb42-4233-8074-75fb0de0443d")
 	)
 	(no_connect
 		(at 99.06 135.89)
@@ -4623,8 +4623,8 @@
 		(uuid "63747124-9a3c-4b78-871c-a28701dece8e")
 	)
 	(no_connect
-		(at 68.58 171.45)
-		(uuid "697344ae-52fe-477d-a75c-1a169aba218e")
+		(at 68.58 156.21)
+		(uuid "6d742d57-8213-4dfd-a00c-e50bb85c4d99")
 	)
 	(no_connect
 		(at 99.06 179.07)
@@ -4635,28 +4635,24 @@
 		(uuid "829fc54b-d300-45a4-8e50-fce2b6df2658")
 	)
 	(no_connect
-		(at 68.58 173.99)
-		(uuid "85d2cfd0-7b17-4370-bd53-c18000aa7245")
-	)
-	(no_connect
-		(at 68.58 143.51)
-		(uuid "93446862-fa97-4f9d-a323-6d4986be6c88")
-	)
-	(no_connect
-		(at 99.06 163.83)
-		(uuid "a270b92b-db12-427f-af0c-f631879cff4f")
+		(at 68.58 151.13)
+		(uuid "8bc4a9ca-ca0c-4964-b46d-d9e3fa64c90e")
 	)
 	(no_connect
 		(at 45.72 62.23)
 		(uuid "b0fcbdec-e941-48e6-b559-150eb9403557")
 	)
 	(no_connect
+		(at 99.06 176.53)
+		(uuid "b497b7cb-df99-4c52-8ff5-65d3c1c5bb5b")
+	)
+	(no_connect
 		(at 99.06 158.75)
 		(uuid "c5057fe2-c977-4a23-ab13-8a1a57056ea4")
 	)
 	(no_connect
-		(at 68.58 138.43)
-		(uuid "c5da3624-d1af-499d-817f-4f61ffe34469")
+		(at 99.06 138.43)
+		(uuid "c65ac270-bcd4-4eac-8d1a-d2617f9706b5")
 	)
 	(no_connect
 		(at 99.06 173.99)
@@ -4673,6 +4669,10 @@
 	(no_connect
 		(at 99.06 156.21)
 		(uuid "e91eb110-c9d2-4565-b9b6-de45361dd41b")
+	)
+	(no_connect
+		(at 68.58 176.53)
+		(uuid "faffa1a5-1778-4ea6-9bd2-86de4a769191")
 	)
 	(wire
 		(pts
@@ -6964,6 +6964,16 @@
 		)
 		(uuid "ffc097c8-02f1-4e92-85da-1bc826d1f6e4")
 	)
+	(label "KNOB_A"
+		(at 68.58 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00fd908a-368c-4b82-99f7-c1c41caa9c5a")
+	)
 	(label "OUT_L-"
 		(at 243.84 41.91 0)
 		(effects
@@ -6973,6 +6983,16 @@
 			(justify left bottom)
 		)
 		(uuid "03d02fc1-a919-4e22-9fb1-1b8a8c7bcd82")
+	)
+	(label "I2S_BCLK"
+		(at 68.58 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08662823-b7ce-46a9-bf93-521046e9e40c")
 	)
 	(label "I2S_LRCK"
 		(at 99.06 151.13 0)
@@ -7064,6 +7084,16 @@
 		)
 		(uuid "2d576f5b-36e4-4e71-aff9-de9b2884ab1d")
 	)
+	(label "BUTTON_PLAY"
+		(at 68.58 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f44f205-50a6-46f0-ac41-ddcaba481d3c")
+	)
 	(label "TFT_SCLK"
 		(at 68.58 168.91 180)
 		(effects
@@ -7093,16 +7123,6 @@
 			(justify right bottom)
 		)
 		(uuid "3278c193-d0c5-4589-af1d-5b58eb3e1e64")
-	)
-	(label "TFT_CS"
-		(at 68.58 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "379e54a9-1adc-486d-9610-9425420a5d0e")
 	)
 	(label "I2S_BCLK"
 		(at 158.75 113.03 180)
@@ -7154,16 +7174,6 @@
 		)
 		(uuid "4dc888f9-f64a-4138-b808-917480f13488")
 	)
-	(label "BUTTON_PLAY"
-		(at 68.58 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4f6a2aa6-af4c-4390-aae9-5eb90e31b4f2")
-	)
 	(label "OUT_L+"
 		(at 237.49 97.79 90)
 		(effects
@@ -7183,6 +7193,16 @@
 			(justify left bottom)
 		)
 		(uuid "61539a80-8862-4096-a1d9-3f9cf570a39d")
+	)
+	(label "TOGGLE_MODE"
+		(at 99.06 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67b77c95-da60-4a07-8fac-b13160fe5df4")
 	)
 	(label "KNOB_SW"
 		(at 144.78 181.61 180)
@@ -7224,16 +7244,6 @@
 		)
 		(uuid "77109ff2-e7e7-4bc8-aa70-e508084a0d65")
 	)
-	(label "BUTTON_PREV"
-		(at 68.58 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77352cdf-c423-4043-9d4e-79225b6cbb62")
-	)
 	(label "TFT_CS"
 		(at 124.46 179.07 180)
 		(effects
@@ -7254,6 +7264,26 @@
 		)
 		(uuid "7f9d315e-d57c-414b-a548-3df135abd441")
 	)
+	(label "KNOB_B"
+		(at 99.06 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aa87d9e-43e2-4cd3-a74f-b24e56acf4d7")
+	)
+	(label "TFT_CS"
+		(at 68.58 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d6b1e03-ae8e-4b5b-baf3-a24de4c27a7b")
+	)
 	(label "+4.5V_Audio"
 		(at 107.95 26.67 0)
 		(effects
@@ -7263,6 +7293,16 @@
 			(justify left bottom)
 		)
 		(uuid "9eeb9ffd-564e-4c12-9d2e-038813e16dd7")
+	)
+	(label "BUTTON_NEXT"
+		(at 99.06 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ef98bbd-dc00-448a-91c2-fa873476ec0d")
 	)
 	(label "3.3V"
 		(at 45.72 128.27 0)
@@ -7294,6 +7334,16 @@
 		)
 		(uuid "a91808f3-1c9f-4825-9ebf-3721372a982c")
 	)
+	(label "KNOB_SW"
+		(at 99.06 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab99d9c5-539a-4db1-ad07-92cb0adede11")
+	)
 	(label "USB_D+"
 		(at 45.72 53.34 0)
 		(effects
@@ -7303,16 +7353,6 @@
 			(justify left bottom)
 		)
 		(uuid "b48fd3bf-2d72-4927-8038-be1e78e37e21")
-	)
-	(label "I2S_BCLK"
-		(at 99.06 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c06e3689-c860-4172-b5fb-e3f8a1b9411b")
 	)
 	(label "TFT_RST"
 		(at 124.46 173.99 180)
@@ -7364,26 +7404,6 @@
 		)
 		(uuid "d629c82a-8b22-49bb-a824-227874956e53")
 	)
-	(label "KNOB_SW"
-		(at 68.58 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "da008bdf-0ccc-45b0-a1f8-4dcc78ca35e2")
-	)
-	(label "KNOB_B"
-		(at 68.58 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "deb8fc64-61d6-4a63-a7c2-868719ce4317")
-	)
 	(label "XSMT"
 		(at 99.06 140.97 0)
 		(effects
@@ -7393,6 +7413,16 @@
 			(justify left bottom)
 		)
 		(uuid "e03796d1-bb3a-4efc-b3df-10bc60c6399e")
+	)
+	(label "BUTTON_PREV"
+		(at 68.58 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e341257b-60ab-427d-8a49-f0e820d38519")
 	)
 	(label "OUT_R+"
 		(at 217.17 58.42 0)
@@ -7413,26 +7443,6 @@
 			(justify right bottom)
 		)
 		(uuid "eb2db9ce-9c1b-4df5-b91f-6a7aaac90f04")
-	)
-	(label "KNOB_A"
-		(at 68.58 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef624d23-b4e8-49ec-a2d6-5d6b7d91be63")
-	)
-	(label "TOGGLE_MODE"
-		(at 68.58 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "efa23334-d9e3-42a1-acf0-e5e6dc46f1f5")
 	)
 	(label "BUTTON_PREV"
 		(at 156.21 157.48 90)
@@ -7463,16 +7473,6 @@
 			(justify left bottom)
 		)
 		(uuid "f940989f-5eed-4a6c-8429-a70ba08ad600")
-	)
-	(label "BUTTON_NEXT"
-		(at 99.06 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcfedaaa-1338-43b7-9b9d-57ad66aaeb7e")
 	)
 	(symbol
 		(lib_id "Device:R")
