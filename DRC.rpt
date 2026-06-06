@@ -1,185 +1,19 @@
 ** Drc report for Geist.kicad_pcb **
-** Created on 2026-06-05T17:07:06+0530 **
+** Created on 2026-06-06T22:57:36+0530 **
 
-** Found 52 DRC violations **
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1571 mm)
-    Rule: netclass 'Default'; error
-    @(137.0000 mm, 72.0000 mm): Via [Net-(U1-FB+)] on F.Cu - B.Cu
-    @(137.0000 mm, 71.0000 mm): Track [+5V] on F.Cu, length 2.2627 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1571 mm)
-    Rule: netclass 'Default'; error
-    @(139.0000 mm, 72.0000 mm): Via [Net-(U1-FB+)] on F.Cu - B.Cu
-    @(137.0000 mm, 71.0000 mm): Track [+5V] on F.Cu, length 2.2627 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1706 mm)
-    Rule: netclass 'Default'; error
-    @(117.8090 mm, 41.2140 mm): Track [+5V] on F.Cu, length 0.3338 mm
-    @(118.0450 mm, 40.7500 mm): Track [Net-(J1-CC2)] on F.Cu, length 0.9270 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)
-    Rule: netclass 'Default'; error
-    @(139.0000 mm, 73.1658 mm): Track [Net-(U1-FB+)] on F.Cu, length 1.1658 mm
-    @(137.0000 mm, 71.0000 mm): Track [+5V] on F.Cu, length 2.2627 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1757 mm)
-    Rule: netclass 'Default'; error
-    @(119.2720 mm, 37.0000 mm): Track [+5V] on F.Cu, length 0.6364 mm
-    @(118.0450 mm, 37.2500 mm): Pad B8 [unconnected-(J1-SBU2-PadB8)] of J1 on F.Cu
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0510 mm)
-    Rule: netclass 'Default'; error
-    @(144.0000 mm, 73.9625 mm): Pad 1 [Net-(U1-C+)] of C2 on F.Cu
-    @(143.2898 mm, 73.0740 mm): Track [/+4.5V_Audio] on F.Cu, length 1.4203 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)
-    Rule: netclass 'Default'; error
-    @(138.6000 mm, 73.3315 mm): Track [+5V] on F.Cu, length 1.6525 mm
-    @(140.1000 mm, 74.0000 mm): Track [Net-(U1-FB+)] on F.Cu, length 0.2658 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0504 mm)
-    Rule: netclass 'Default'; error
-    @(155.7739 mm, 82.7733 mm): Track [/XSMT] on F.Cu, length 19.4784 mm
-    @(135.8343 mm, 69.4000 mm): Track [/3.3V] on F.Cu, length 6.0000 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
-    Rule: netclass 'Default'; error
-    @(121.0000 mm, 38.0000 mm): Pad 1 [Net-(J1-CC1)] of R1 on F.Cu
-    @(122.0000 mm, 37.0000 mm): Track [+5V] on F.Cu, length 2.7280 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0559 mm)
-    Rule: netclass 'Default'; error
-    @(144.0000 mm, 73.9625 mm): Pad 1 [Net-(U1-C+)] of C2 on F.Cu
-    @(144.7102 mm, 73.0740 mm): Track [/+4.5V_Audio] on F.Cu, length 3.2751 mm
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1314 mm)
-    Rule: board setup constraints hole; error
-    @(115.5990 mm, 40.5990 mm): Track [+5V] on F.Cu, length 0.9447 mm
-    @(116.6000 mm, 41.8900 mm): NPTH pad of J1
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)
-    Rule: netclass 'Default'; error
-    @(139.8342 mm, 74.0000 mm): Track [Net-(U1-FB+)] on F.Cu, length 1.1797 mm
-    @(138.6000 mm, 72.6000 mm): Track [+5V] on F.Cu, length 0.7315 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
-    Rule: netclass 'Default'; error
-    @(139.7685 mm, 74.5000 mm): Track [+5V] on F.Cu, length 0.3315 mm
-    @(139.8342 mm, 74.0000 mm): Track [Net-(U1-FB+)] on F.Cu, length 1.1797 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
-    Rule: netclass 'Default'; error
-    @(139.7685 mm, 74.5000 mm): Track [+5V] on F.Cu, length 0.3315 mm
-    @(140.1000 mm, 74.0000 mm): Track [Net-(U1-FB+)] on F.Cu, length 0.2658 mm
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1010 mm)
-    Rule: board setup constraints hole; error
-    @(115.7250 mm, 41.8090 mm): Track [+5V] on F.Cu, length 0.7665 mm
-    @(116.6000 mm, 41.8900 mm): NPTH pad of J1
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
-    Rule: netclass 'Default'; error
-    @(142.0000 mm, 75.5000 mm): Track [+5V] on F.Cu, length 0.5381 mm
-    @(142.9625 mm, 75.0000 mm): Track [Net-(U1-C-)] on F.Cu, length 0.9625 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)
-    Rule: netclass 'Default'; error
-    @(142.0006 mm, 69.0000 mm): Track [/XSMT] on F.Cu, length 6.0006 mm
-    @(141.8343 mm, 69.4000 mm): Track [/3.3V] on F.Cu, length 16.1619 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0510 mm)
-    Rule: netclass 'Default'; error
-    @(116.7500 mm, 38.2500 mm): Track [/USB_D-] on F.Cu, length 1.0607 mm
-    @(115.5990 mm, 38.2190 mm): Track [+5V] on F.Cu, length 2.3800 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0640 mm)
-    Rule: netclass 'Default'; error
-    @(118.0450 mm, 40.7500 mm): Pad B5 [Net-(J1-CC2)] of J1 on F.Cu
-    @(117.8090 mm, 41.2140 mm): Track [+5V] on F.Cu, length 0.3338 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1250 mm)
-    Rule: netclass 'Default'; error
-    @(139.7685 mm, 74.5000 mm): Track [+5V] on F.Cu, length 0.3315 mm
-    @(140.1000 mm, 74.0000 mm): Pad 2 [Net-(U1-FB+)] of U1 on F.Cu
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0530 mm)
-    Rule: netclass 'Default'; error
-    @(152.5250 mm, 83.3500 mm): Pad 19 [GND] of U4 on F.Cu
-    @(151.0000 mm, 83.5676 mm): Track [/3.3V] on F.Cu, length 1.2270 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
-    Rule: netclass 'Default'; error
-    @(142.0000 mm, 74.0000 mm): Track [/+4.5V_Audio] on F.Cu, length 0.3638 mm
-    @(142.0000 mm, 73.5000 mm): Track [+5V] on F.Cu, length 0.2270 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
-    Rule: netclass 'Default'; error
-    @(142.0000 mm, 75.5000 mm): Track [+5V] on F.Cu, length 0.5381 mm
-    @(142.0000 mm, 76.0000 mm): Track [Net-(U1-FB-)] on F.Cu, length 3.0000 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0691 mm)
-    Rule: netclass 'Default'; error
-    @(142.7577 mm, 72.7577 mm): Via [+5V] on F.Cu - B.Cu
-    @(143.2898 mm, 73.0740 mm): Track [/+4.5V_Audio] on F.Cu, length 1.4203 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0510 mm)
-    Rule: netclass 'Default'; error
-    @(116.0000 mm, 39.0000 mm): Track [/USB_D-] on F.Cu, length 0.3536 mm
-    @(115.5990 mm, 38.2190 mm): Track [+5V] on F.Cu, length 2.3800 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1757 mm)
-    Rule: netclass 'Default'; error
-    @(118.0450 mm, 37.2500 mm): Pad B8 [unconnected-(J1-SBU2-PadB8)] of J1 on F.Cu
-    @(117.2680 mm, 36.5500 mm): Track [+5V] on F.Cu, length 2.3603 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0510 mm)
-    Rule: netclass 'Default'; error
-    @(135.1000 mm, 79.9625 mm): Pad 1 [Net-(U1-FB-)] of R4 on F.Cu
-    @(141.8635 mm, 80.8635 mm): Track [/+4.5V_Audio] on F.Cu, length 14.0750 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1108 mm)
-    Rule: netclass 'Default'; error
-    @(142.0000 mm, 73.5000 mm): Track [+5V] on F.Cu, length 0.2270 mm
-    @(142.3638 mm, 74.0000 mm): Track [/+4.5V_Audio] on F.Cu, length 1.3096 mm
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2249 mm)
-    Rule: board setup constraints hole; error
-    @(118.0450 mm, 36.5500 mm): Track [+5V] on F.Cu, length 0.7770 mm
-    @(116.6000 mm, 36.1100 mm): NPTH pad of J1
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1757 mm)
-    Rule: netclass 'Default'; error
-    @(141.0500 mm, 74.7500 mm): Pad 13 [GND] of U1 on F.Cu
-    @(142.0000 mm, 73.2730 mm): Track [+5V] on F.Cu, length 0.9001 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
-    Rule: netclass 'Default'; error
-    @(142.3638 mm, 74.0000 mm): Track [/+4.5V_Audio] on F.Cu, length 1.3096 mm
-    @(143.4625 mm, 74.5000 mm): Track [Net-(U1-C+)] on F.Cu, length 1.4625 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)
-    Rule: netclass 'Default'; error
-    @(134.6000 mm, 68.1657 mm): Track [/3.3V] on F.Cu, length 1.7456 mm
-    @(142.0006 mm, 69.0000 mm): Track [/XSMT] on F.Cu, length 6.0006 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)
-    Rule: netclass 'Default'; error
-    @(134.6000 mm, 68.1657 mm): Track [/3.3V] on F.Cu, length 1.7456 mm
-    @(136.0000 mm, 69.0000 mm): Track [/XSMT] on F.Cu, length 10.0000 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0504 mm)
-    Rule: netclass 'Default'; error
-    @(155.7739 mm, 82.7733 mm): Track [/XSMT] on F.Cu, length 19.4784 mm
-    @(153.2625 mm, 80.8282 mm): Track [/3.3V] on F.Cu, length 1.8718 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0640 mm)
-    Rule: netclass 'Default'; error
-    @(118.0450 mm, 40.7500 mm): Pad B5 [Net-(J1-CC2)] of J1 on F.Cu
-    @(116.3200 mm, 41.2140 mm): Track [+5V] on F.Cu, length 1.4890 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)
-    Rule: netclass 'Default'; error
-    @(142.0006 mm, 69.0000 mm): Track [/XSMT] on F.Cu, length 6.0006 mm
-    @(135.8343 mm, 69.4000 mm): Track [/3.3V] on F.Cu, length 6.0000 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1050 mm)
-    Rule: netclass 'Default'; error
-    @(117.1300 mm, 43.3200 mm): PTH pad S1 [GND] of J1
-    @(115.7250 mm, 59.0000 mm): Track [+5V] on F.Cu, length 17.1910 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1250 mm)
-    Rule: netclass 'Default'; error
-    @(142.0000 mm, 75.5000 mm): Track [+5V] on F.Cu, length 0.5381 mm
-    @(142.0000 mm, 75.0000 mm): Pad 9 [Net-(U1-C-)] of U1 on F.Cu
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0510 mm)
-    Rule: netclass 'Default'; error
-    @(147.0260 mm, 75.3898 mm): Track [/+4.5V_Audio] on F.Cu, length 4.5842 mm
-    @(146.0000 mm, 78.9625 mm): Pad 1 [GND] of C9 on F.Cu
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1250 mm)
-    Rule: netclass 'Default'; error
-    @(142.0000 mm, 73.5000 mm): Track [+5V] on F.Cu, length 0.2270 mm
-    @(142.0000 mm, 74.0000 mm): Pad 11 [/+4.5V_Audio] of U1 on F.Cu
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(145.6000 mm, 46.3100 mm): PTH pad 41 [GND] of U3
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(145.6000 mm, 46.3100 mm): PTH pad 41 [GND] of U3
+** Found 7 DRC violations **
 [starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-    @(138.0000 mm, 74.4250 mm): Pad 2 [GND] of C1 on F.Cu
+    @(136.0000 mm, 74.4250 mm): Pad 2 [GND] of C1 on F.Cu
 [starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-    @(141.0500 mm, 74.7500 mm): PTH pad 13 [GND] of U1
+    @(118.0450 mm, 35.7500 mm): Pad A1 [GND] of J1 on F.Cu
 [starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-    @(141.0500 mm, 74.7500 mm): Pad 13 [GND] of U1 on F.Cu
+    @(118.0450 mm, 35.7500 mm): Pad B12 [GND] of J1 on F.Cu
 [starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
@@ -188,86 +22,84 @@
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
     @(122.0000 mm, 47.0000 mm): Pad 2 [GND] of R2 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)
+    Local override; error
+    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
+    @(142.0000 mm, 66.5400 mm): PTH pad 2 [GND] of J7
 [starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-    @(152.5250 mm, 85.3000 mm): Pad 16 [GND] of U4 on F.Cu
-[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
-    Local override; error
-    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-    @(138.9625 mm, 83.0000 mm): Pad 2 [GND] of C6 on F.Cu
-[lib_footprint_mismatch]: Footprint 'ESP32-S3-WROOM-1' does not match copy in library 'RF_Module'.
-    Local override; warning
-    @(147.1000 mm, 43.1500 mm): Footprint U3
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(137.0000 mm, 73.0000 mm): Reference field of C1
-[silk_overlap]: Silkscreen overlap
-    Rule: board setup constraints silk; warning
-    @(137.0000 mm, 73.0000 mm): Reference field of C1
-    @(135.7350 mm, 75.2613 mm): Segment of C4 on F.Silkscreen
+    @(136.9625 mm, 83.0000 mm): Pad 2 [GND] of C6 on F.Cu
 
-** Found 17 unconnected pads **
+** Found 20 unconnected pads **
 [unconnected_items]: Missing connection between items
     Local override; error
+    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
+    @(117.1300 mm, 34.6800 mm): PTH pad S1 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
     @(121.0000 mm, 43.0000 mm): Pad 2 [GND] of C5 on F.Cu
-    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(128.0000 mm, 56.1600 mm): PTH pad 1 [GND] of J4
-    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
+    @(121.0000 mm, 36.0000 mm): Pad 2 [GND] of R1 on F.Cu
+    @(118.0450 mm, 35.7500 mm): Pad B12 [GND] of J1 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
+    @(128.0000 mm, 56.0000 mm): PTH pad 1 [GND] of J4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(138.9625 mm, 83.0000 mm): Pad 2 [GND] of C6 on F.Cu
-    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-[unconnected_items]: Missing connection between items
-    Local override; error
+    @(136.0000 mm, 74.4250 mm): Pad 2 [GND] of C1 on F.Cu
     @(140.1000 mm, 75.0000 mm): Pad 4 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
 [unconnected_items]: Missing connection between items
     Local override; error
+    @(141.0500 mm, 74.7500 mm): Pad 13 [GND] of U1 on B.Cu
     @(140.1000 mm, 75.0000 mm): Pad 4 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.0000 mm, 91.0375 mm): Pad 2 [GND] of C11 on F.Cu
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
+    @(146.8000 mm, 84.0000 mm): Pad 3 [GND] of U4 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
     @(146.8000 mm, 84.0000 mm): Pad 3 [GND] of U4 on F.Cu
     @(146.8000 mm, 87.9000 mm): Pad 9 [GND] of U4 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(146.8000 mm, 84.0000 mm): Pad 3 [GND] of U4 on F.Cu
-    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
     @(146.8000 mm, 87.9000 mm): Pad 9 [GND] of U4 on F.Cu
+    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
 [unconnected_items]: Missing connection between items
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(152.0000 mm, 106.0000 mm): Pad 5 [GND] of U5 on F.Cu
-    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
-[unconnected_items]: Missing connection between items
-    Local override; error
+    @(152.5250 mm, 85.3000 mm): Pad 16 [GND] of U4 on F.Cu
     @(152.5250 mm, 83.3500 mm): Pad 19 [GND] of U4 on F.Cu
-    @(152.5250 mm, 85.3000 mm): Pad 16 [GND] of U4 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
+    @(152.5250 mm, 85.3000 mm): Pad 16 [GND] of U4 on F.Cu
     @(152.5250 mm, 87.9000 mm): Pad 12 [GND] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
     @(152.5250 mm, 88.5500 mm): Pad 11 [GND] of U4 on F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
     @(152.5250 mm, 87.9000 mm): Pad 12 [GND] of U4 on F.Cu
-    @(152.5250 mm, 85.3000 mm): Pad 16 [GND] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
+    @(152.0000 mm, 106.0000 mm): Pad 5 [GND] of U5 on F.Cu
 [unconnected_items]: Missing connection between items
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
@@ -276,6 +108,10 @@
     Local override; error
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
     @(110.0000 mm, 30.0000 mm): Zone [GND] on F.Cu, priority 1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0000 mm, 75.5000 mm): Track [+5V] on F.Cu, length 0.5381 mm
+    @(140.1000 mm, 74.5000 mm): Track [+5V] on F.Cu, length 1.6000 mm
 
 ** Found 0 Footprint errors **
 
